@@ -1,0 +1,8 @@
+python-dotenv
+ipytest
+ruff
+nbformat
+nbdev
+nbclient
+ipykernel
+jupyterlab-vim

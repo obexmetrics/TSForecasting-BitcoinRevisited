@@ -144,3 +144,37 @@ node_modules
 .cdk.staging
 cdk.out
 
+
+# Docker-specific ignores
+Dockerfile
+*.md
+documentation/
+
+# Ignore Git directories
+.git
+.gitignore
+
+# Ignore temporary files
+*.Rproj.user
+*.Rhistory
+*.Rdata
+.vscode/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore specific large directories or files
+data/
+models/
+notebooks/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
